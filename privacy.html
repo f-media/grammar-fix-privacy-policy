@@ -1,37 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy – uBlock Origin Lite</title>
-  <style>
-    body { font-family: system-ui, -apple-system, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #333; }
-    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-    .updated { color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; }
-    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
-    p { margin: 0.5rem 0; }
-    a { color: #0066cc; }
-  </style>
-</head>
-<body>
-  <h1>Privacy Policy – uBlock Origin Lite</h1>
-  <p class="updated">Last updated: February 2025</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy – Grammar & Typo Fix</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #1e293b;
+        background: #fff;
+      }
+      .container {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 24px 48px;
+      }
+      h1 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin: 0 0 8px;
+        color: #0f172a;
+      }
+      .last-updated {
+        color: #64748b;
+        font-size: 0.875rem;
+        margin-bottom: 32px;
+      }
+      h2 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin: 28px 0 12px;
+        color: #334155;
+      }
+      p {
+        margin: 0 0 12px;
+        color: #475569;
+      }
+      ul {
+        margin: 0 0 12px;
+        padding-left: 1.5rem;
+        color: #475569;
+      }
+      li {
+        margin-bottom: 6px;
+      }
+      a {
+        color: #3b82f6;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last updated: February 2026</p>
 
-  <p>This privacy policy applies to the <strong>uBlock Origin Lite</strong> browser extension.</p>
+      <p>
+        This Privacy Policy describes how the <strong>Grammar & Typo Fix</strong> Chrome extension
+        (“Extension”) handles information when you use it. The Extension is designed to help correct
+        common typos and grammar as you type.
+      </p>
 
-  <h2>Data collection</h2>
-  <p>This extension does <strong>not</strong> collect, store, or transmit any personally identifiable information, browsing history, or other personal data.</p>
+      <h2>1. Information stored on your device</h2>
+      <p>
+        The Extension stores the following data locally in your browser (Chrome local storage),
+        on your device only:
+      </p>
+      <ul>
+        <li>Your preferences (e.g. whether corrections are enabled, which correction categories are on)</li>
+        <li>Per-site settings, if you change them</li>
+        <li>Optional: Ollama base URL and model name, if you configure AI-based corrections</li>
+        <li>If you enable “Sync preferences with cloud”: a copy of sync-related settings may be cached locally</li>
+      </ul>
+      <p>
+        This data is not transmitted to the developer unless you use optional cloud or remote
+        features described below.
+      </p>
 
-  <h2>Local storage</h2>
-  <p>Blocking rules and your preferences (for example, whether the extension is enabled) are stored only on your device using the browser’s local storage. This data is not sent to any external server.</p>
+      <h2>2. Grammar and typo corrections</h2>
+      <p>
+        <strong>Built-in rules:</strong> Typo and grammar fixes (e.g. “teh” → “the”) can run entirely
+        on your device using built-in rules. No text is sent to any server for this.
+      </p>
+      <p>
+        <strong>Optional Ollama:</strong> If you set an Ollama URL and model in the Extension options,
+        the text you type in form fields may be sent to that Ollama instance for grammar correction.
+        That request goes only to the URL you provide (e.g. your local machine or your own server).
+        The Extension developer does not receive this text.
+      </p>
 
-  <h2>Permissions</h2>
-  <p>Permissions (such as access to network requests and storage) are used only to block unwanted content and to save your settings locally. They are not used to read your communications, track you, or send your data elsewhere.</p>
+      <h2>3. Optional cloud and remote features</h2>
+      <p>
+        The Extension may support optional features that communicate with a remote server (for example
+        “Sync preferences with cloud,” or optional writing-assist / address-related features). When
+        you enable such features:
+      </p>
+      <ul>
+        <li>Your preferences or sync data may be sent to or fetched from that server.</li>
+        <li>In some configurations, data you enter (e.g. in certain form fields) may be sent to that
+          server. The exact data and server are determined by the configuration (e.g. your organization
+          or the deployment you use).</li>
+      </ul>
+      <p>
+        If you do not enable these optional features, the Extension does not send your typing or
+        form data to any remote server for those purposes.
+      </p>
 
-  <h2>Changes</h2>
-  <p>We may update this policy from time to time. The “Last updated” date at the top will be revised when we do.</p>
+      <h2>4. Permissions</h2>
+      <p>
+        The Extension requests storage permission to save your preferences and optional settings,
+        and access to all websites so it can offer corrections on web pages. It does not sell your
+        data to third parties.
+      </p>
 
-  <h2>Contact</h2>
-  <p>For questions about this privacy policy, open an issue in the extension’s project repository.</p>
-</body>
+      <h2>5. Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. The “Last updated” date at the top will
+        be revised when we do. Continued use of the Extension after changes means you accept the
+        updated policy.
+      </p>
+
+      <h2>6. Contact</h2>
+      <p>
+        For questions about this Privacy Policy or the Extension, please use the contact or support
+        option provided in the Chrome Web Store listing or on the developer’s website.
+      </p>
+    </div>
+  </body>
 </html>
